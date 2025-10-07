@@ -1,9 +1,11 @@
 import Logo from "../components/Logo/Logo";
+import Nav from "../components/Nav/Nav";
 
 export default function About() {
   return (
     <div>
       <Logo />
+      <Nav />
       <h1 className="text-3xl font-semibold text-center mb-10">À Propos</h1>
 
       <div className="max-w-2xl mx-auto">
